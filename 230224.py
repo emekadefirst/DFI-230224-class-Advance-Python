@@ -8,7 +8,7 @@ print("Welcome, what would you like to do? ")
 print("1. Open account\n2. Transfer\n3. Airtime\n4. Internet\n5. Balance\n6. Bills & Utitilies")
 
 res = str(input())
-
+#assigment
 if res == "1": 
     firstname = str(input("Your firstname\n>> ")).upper()
     surname = str(input("Your lastname\n>> ")).upper()
