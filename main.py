@@ -1,20 +1,16 @@
-# import requests
-
-# url = "https://dummyjson.com/products"
-# response = requests.get(url)
-# if response.status_code == 200:
-#     data = response.json()
-#     products = data['products']  
-#     # product_data = []
-#     for product in products:
-#         title = product['title']
-#         price = product['price']
-#         print(f"{title} is worth ${price}")
-
-from app import Case        
+class Bank:
+    def __init__(self, name, address, contact):
+        self.name = name
+        self.address = address
+        self.contact = contact
         
-def activities():
-    case = Case.objects.all()
+    def send(self):
+        print("How much are you sendingh")
+        amm = int(input())
         
-
-
+    def recieve(self):
+        print
+        
+        
+        
+class Access(Bank):

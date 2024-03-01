@@ -18,6 +18,9 @@ class Shop:
         rem = self.quantity - amt
         print(f"We now have {rem} {self.name} left")
         
+class Mall(Shop):
+    print("Done!!!!!")
+        
 pepsi = Shop("Joyce drinks", "Pepsi", 20)
 print()
 pepsi.sell()
