@@ -41,8 +41,7 @@ class MTN(Wifi):
     def create(self):
         return f"You've just created MTN wifi named {self.name} and your password is {self.password}"
 
-wifi = MTN()
-# wifi.create_wifi()
 
-print(wifi.create())
+
+
 
