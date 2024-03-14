@@ -10,5 +10,7 @@ for y in content.find_all("h3", {"class": "jeg_post_title"}):
     link = y.find("a")
     if link:
         print(link.get('href'))
+for x in content.find_all("img", {"class": "attachment-jnews-350x250 size-jnews-350x250 wp-post-image lazyautosizes lazyloaded"}):
+    print(x.text.strip())
 
     
